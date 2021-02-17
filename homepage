@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Juan Thomassie">
+
+    <!-- title -->
+    <title>VICO 3173 / 5173 </title>
+
+    <!-- bootstrap CSS -->
+    <link href='https://unpkg.com/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet' />
+
+    <!-- internal styles -->
+    <style>
+        /* MEDIA QUERY EXAMPLE - MOBILE (XS) */
+        .xs-margin {
+            margin-bottom: 1rem;
+        }
+
+        /* MEDIA QUERY EXAMPLE - LARGE AND UP */
+        @media (min-width: 992px) {
+            .xs-margin {
+                margin-bottom: 0;
+            }
+        }
+
+        /* BOLD DISPLAY */
+        .bold-display {
+            font-size: 4.1rem;
+            font-weight: 700;
+            line-height: 1.0;
+            letter-spacing: -0.13rem;
+        }
+
+        /* COLORS */
+        .blue {
+            background-color: #00529b;
+            color: #fff;
+        }
+
+        .yellow {
+            background-color: #b79415;
+            color: #fff;
+        }
+
+        .purple {
+          background-color: #6f42c1;
+          color: #fff;
+        }
+
+        .red {
+            background-color: #c72e3c;
+            color: #fff;
+        }
+
+        .gray {
+            background-color: #eeeeee;
+            color: #333;
+        }
+
+        /* MARGINS, PADDING */
+        .more-padding {
+            padding: 2rem !important;
+        }
+
+        .top-padding {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
+
+        .no-margin {
+            margin: 0 !important;
+        }
+
+        .show-bkgd {
+            border: #cccccc;
+            background-color: #dddddd;
+        }
+
+        /* BUTTONS */
+        .btn-blue {
+            color: #fff;
+            background-color: #256aa7;
+            border-color: #86b2da;
+            margin: 0 0.4rem 0.4rem 0;
+        }
+
+        .btn-blue:hover {
+            color: #fff;
+            background-color: #4f89bd;
+        }
+
+        /* FOOTER */
+        .dark-footer {
+            background-color: #666;
+            color: #eee;
+            padding: 2rem 0 8rem 0;
+            margin-top: 2rem;
+        }
+
+        .dark-footer a {
+            color: #ddd;
+            text-decoration: underline;
+        }
+
+        .dark-footer a:hover {
+            color: #bbb;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class="jumbotron blue no-margin">
+        <div class="container">
+            <h1 class="display-3 bold-display">Bootstrap Starter</h1>
+            <p class="lead">Bootstrap headings, typography, layout, image examples.</br>
+                Always try to do it the Bootstrap way!</p>
+            <p><a id="details" class="btn btn-blue" href="https://getbootstrap.com/docs/4.3/content/typography/"
+                    target="_blank" role="button">Read More About Bootstrap Typography</a>
+                <a id="details" class="btn btn-blue" href="https://getbootstrap.com/docs/4.3/layout/grid/"
+                    target="_blank" role="button">Read More About the Bootstrap Layout Grid</a></p>
+        </div>
+    </div>
+
+    <!-- each layout begins with .container class and resizes to media query breakpoints -->
+    <div class="gray top-padding">
+        <div class="container">
+
+            <!-- each .row is a full-width section of the container layout -->
+            <div class="row">
+
+                <!-- each .col is part of a row and 12-col grid -->
+                <div class="col-md-4">
+                    <h3>Catalina</h3>
+                    <img class="img-fluid" src="images/green-catalina.jpg" alt="Catalina">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vitae fuga repellat natus dolor
+                        consectetur consequuntur porro.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Market</h3>
+                    <img class="img-fluid" src="images/red-market.jpg" alt="Market">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum ad et, nihil laboriosam
+                        non
+                        unde distinctio, suscipit aspernatur?</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Statue</h3>
+                    <img class="img-fluid" src="images/yellow-statue.jpg" alt="Statue">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorum ad et, nihil laboriosam
+                        non
+                        unde nisi distinctio, suscipit eius.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="SiteCarousel" class="carousel slide more-padding" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#SiteCarousel" data-slide-to="0" class="active">
+        <li data-target="#SiteCarousel" data-slide-to="1" >
+        <li data-target="#SiteCarousel" data-slide-to="2" >
+        <li data-target="#SiteCarousel" data-slide-to="3" >
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/blue-gate.jpg" alt="first slide">
+            <div class="carousel-caption">
+              <h3>Gate</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vitae fuga repellat natus dolor
+                  consectetur consequuntur porro. Tenetur exercitationem veritatis, dicta omnis blanditiis ea,
+                  eligendi voluptate sint, corporis magni repellendus? </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/purple-rocks.jpg" alt="second slide">
+            <div class="carousel-caption">
+              <h3>Rocks</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vitae fuga repellat natus dolor
+                  consectetur consequuntur porro. Tenetur exercitationem veritatis, dicta omnis blanditiis ea,
+                  eligendi voluptate sint, corporis magni repellendus? </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/red-market.jpg" alt="third slide">
+            <div class="carousel-caption">
+              <h3>Market</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vitae fuga repellat natus dolor
+                  consectetur consequuntur porro. Tenetur exercitationem veritatis, dicta omnis blanditiis ea,
+                  eligendi voluptate sint, corporis magni repellendus? </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 img-fluid" src="images/yellow-statue.jpg" alt="fourth slide">
+            <div class="carousel-caption">
+              <h3>Statue</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vitae fuga repellat natus dolor
+                  consectetur consequuntur porro. Tenetur exercitationem veritatis, dicta omnis blanditiis ea,
+                  eligendi voluptate sint, corporis magni repellendus? </p>
+
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#SiteCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#SiteCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="gray">
+
+        <!-- each layout begins with .container class and resizes to media query breakpoints -->
+        <div class="container">
+
+            <!-- each .row is a full-width section of the container layout -->
+            <div class="row no-gutters xs-margin top-padding">
+
+                <div class="col-lg-7">
+                    <img class="img-fluid" src="images/blue-gate.jpg" alt="Gate">
+                </div>
+
+                <div class="col-lg-5 blue more-padding">
+                    <h3>Gate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vitae fuga repellat natus dolor
+                        consectetur consequuntur porro. Tenetur exercitationem veritatis, dicta omnis blanditiis ea,
+                        eligendi voluptate sint, corporis magni repellendus? </p>
+                </div>
+            </div>
+
+            <div class="row no-gutters xs-margin top-padding">
+
+                <div class="col-lg-5 yellow more-padding">
+                    <h3>Statue</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vitae fuga repellat natus dolor
+                        consectetur consequuntur porro. Tenetur exercitationem veritatis, dicta omnis blanditiis ea,
+                        eligendi voluptate sint, corporis magni repellendus? </p>
+                </div>
+
+                <div class="col-lg-7">
+                    <img class="img-fluid" src="images/yellow-statue.jpg" alt="Gate">
+                </div>
+
+            </div>
+
+            <div class="row no-gutters xs-margin top-padding">
+
+                <div class="col-lg-7">
+                    <img class="img-fluid" src="images/red-market.jpg" alt="Gate">
+                </div>
+
+                <div class="col-lg-5 red more-padding">
+                    <h3>Market</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vitae fuga repellat natus dolor
+                        consectetur consequuntur porro. Tenetur exercitationem veritatis, dicta omnis blanditiis ea,
+                        eligendi voluptate sint, corporis magni repellendus? </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="dark-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Data-Visual © 2019</p>
+                </div>
+                <div class="col">
+                    <p class="float-right">
+                        <a href="#">Back to top</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript dependencies: first jQuery, then Popper.js, then Bootstrap JS -->
+    <script src='https://unpkg.com/jquery/dist/jquery.min.js'></script>
+    <script src='https://unpkg.com/popper.js/dist/umd/popper.min.js'></script>
+    <script src='https://unpkg.com/bootstrap/dist/js/bootstrap.min.js'></script>
+
+</body>
+
+</html>
